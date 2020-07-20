@@ -1,0 +1,4 @@
+SELECT day, count(id) 
+FROM ASSIGNMENTS
+GROUP BY day
+ORDER BY day;
